@@ -67,12 +67,15 @@ zstyle ':completion:*:descriptions' format '%U%F{cyan}%d%f%u'
 # User aliases
 export AETHER='fweiler@aether.uni-bremen.de'
 alias of1706='source $HOME/OpenFOAM/OpenFOAM-v1706/etc/bashrc'
+alias of1812='source $HOME/OpenFOAM/OpenFOAM-v1812/etc/bashrc'
 alias of4x='source $HOME/OpenFOAM/OpenFOAM-4.x/etc/bashrc'
 alias aetherConnect='ssh -p 54203 fweiler@aether.uni-bremen.de'
 alias aetherSync='rsync -Pav -e "ssh -p 54203"'
 alias cfd='cd ~/CFD/'
-alias peregrine='p286919@peregrine.hpc.rug.nl:/data/p286919'
+export peregrine='p286919@peregrine.hpc.rug.nl:/data/p286919'
 alias rug='cd ~/Documents/RUG'
+alias fish='cd ~/CFD/fishUndulation'
+alias fishpaper='cd ~/CFD/fishUndulation/doc/paper'
 alias paraviewpipeline='ssh -L 11111:localhost:11111 p286919@peregrine.hpc.rug.nl -t ssh -L 11111:localhost:11111 p286919@pg-node005'
 
 

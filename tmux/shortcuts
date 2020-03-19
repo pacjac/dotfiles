@@ -1,0 +1,34 @@
+# === GENERAL
+# List all keybindings
+Prefix + ?
+
+# === SESSION
+# rename session / Show session Name    
+Prefix + $
+
+# === WINDOWS
+# rename window
+Prefix + ,
+# new window 
+Prefix + c
+# select next window
+Prefix + n
+# select previous window
+Prefix + p
+# select window by number
+Prefix + [0-9]
+# kill window
+Prefix + &
+
+# === PANES
+# show pane ID
+Prefix + q
+# move pane up 
+Prefix + }
+# move pane down 
+Prefix + {
+# rotate panes
+Prefix + Ctrl - o
+# kill pane
+Prefix + x
+
